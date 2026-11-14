@@ -9,6 +9,7 @@
 name: Lint eslint
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main, test ]
   pull_request:
